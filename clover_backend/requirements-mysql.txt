@@ -1,0 +1,3 @@
+# Optional: only install if you want MySQL (USE_MYSQL=True) instead of SQLite/Postgres.
+-r requirements.txt
+mysqlclient>=2.2

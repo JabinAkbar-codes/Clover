@@ -1,0 +1,3319 @@
+[
+{
+  "model": "catalog.category",
+  "pk": 1,
+  "fields": {
+    "name": "Necklaces",
+    "slug": "necklaces"
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 2,
+  "fields": {
+    "name": "Bracelets",
+    "slug": "bracelets"
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 3,
+  "fields": {
+    "name": "Earrings",
+    "slug": "earrings"
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 4,
+  "fields": {
+    "name": "Rings",
+    "slug": "rings"
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 5,
+  "fields": {
+    "name": "Anklets",
+    "slug": "anklets"
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 6,
+  "fields": {
+    "name": "Charms",
+    "slug": "charms"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 1,
+  "fields": {
+    "name": "Moon Pearl Necklace",
+    "slug": "moon-pearl-necklace-1",
+    "category": 1,
+    "collection": "sun-kissed-ibiza-collection",
+    "description": "Inspired by quiet luxury, the moon pearl necklace brings a soft shine to both day and evening looks.",
+    "material": "925 sterling silver, 18k gold plating",
+    "price": "5599.00",
+    "sale_price": "4499.00",
+    "stock": 24,
+    "sold_out": false,
+    "personalizable": true,
+    "badge": "Limited",
+    "is_bestseller": false,
+    "images": [
+      "/Necklace/Necklace12.1.avif",
+      "/Necklace/Necklace12.2.avif",
+      "/Necklace/Necklace12.3.avif"
+    ],
+    "rating": "4.4",
+    "reviews_count": 40,
+    "created_at": "2026-10-03T11:08:44.330Z",
+    "updated_at": "2026-10-04T06:09:52.988Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 2,
+  "fields": {
+    "name": "Lilie Necklace",
+    "slug": "lilie-necklace-2",
+    "category": 1,
+    "collection": "sun-kissed-ibiza-collection",
+    "description": "Inspired by quiet luxury, the lilie necklace brings a soft shine to both day and evening looks.",
+    "material": "925 sterling silver, 18k gold plating",
+    "price": "6299.00",
+    "sale_price": "5399.00",
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "New",
+    "is_bestseller": false,
+    "images": [
+      "/Necklace/Necklace13.1.avif",
+      "/Necklace/Necklace13.2.avif",
+      "/Necklace/Necklace13.3.avif"
+    ],
+    "rating": "4.9",
+    "reviews_count": 165,
+    "created_at": "2026-10-03T11:08:44.342Z",
+    "updated_at": "2026-10-04T15:08:12.401Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 3,
+  "fields": {
+    "name": "Eivissa Necklace",
+    "slug": "eivissa-necklace-3",
+    "category": 1,
+    "collection": "",
+    "description": "A beautifully handcrafted eivissa necklace, designed to add a delicate touch of elegance to any outfit. Perfect for everyday wear or gifting.",
+    "material": "925 sterling silver, 18k gold plating",
+    "price": "7299.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": true,
+    "badge": "New",
+    "is_bestseller": true,
+    "images": [
+      "/Necklace/Necklace1.1.avif",
+      "/Necklace/Necklace1.2.avif",
+      "/Necklace/Necklace1.3.avif"
+    ],
+    "rating": "4.6",
+    "reviews_count": 161,
+    "created_at": "2026-10-03T11:08:44.351Z",
+    "updated_at": "2026-10-03T17:23:38.843Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 4,
+  "fields": {
+    "name": "Drop Cross Necklace",
+    "slug": "drop-cross-necklace-4",
+    "category": 1,
+    "collection": "",
+    "description": "Inspired by quiet luxury, the drop cross necklace brings a soft shine to both day and evening looks.",
+    "material": "925 sterling silver, 18k gold plating",
+    "price": "8799.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "Limited",
+    "is_bestseller": false,
+    "images": [
+      "/Necklace/Necklace18.1.avif",
+      "/Necklace/Necklace18.2.avif"
+    ],
+    "rating": "4.2",
+    "reviews_count": 70,
+    "created_at": "2026-10-03T11:08:44.359Z",
+    "updated_at": "2026-10-04T15:15:46.272Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 5,
+  "fields": {
+    "name": "Sunset Necklace",
+    "slug": "sunset-necklace-5",
+    "category": 1,
+    "collection": "",
+    "description": "A beautifully handcrafted sunset necklace, designed to add a delicate touch of elegance to any outfit. Perfect for everyday wear or gifting.",
+    "material": "925 sterling silver, 18k gold plating",
+    "price": "6699.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": true,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Necklace/Necklace16.1.avif",
+      "/Necklace/Necklace16.2.avif"
+    ],
+    "rating": "4.7",
+    "reviews_count": 80,
+    "created_at": "2026-10-03T11:08:44.367Z",
+    "updated_at": "2026-10-04T15:13:20.571Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 6,
+  "fields": {
+    "name": "Daisy Necklace",
+    "slug": "daisy-necklace-6",
+    "category": 1,
+    "collection": "",
+    "description": "A beautifully handcrafted daisy necklace, designed to add a delicate touch of elegance to any outfit. Perfect for everyday wear or gifting.",
+    "material": "925 sterling silver, 18k gold plating",
+    "price": "3999.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Necklace/Necklace7.1.avif",
+      "/Necklace/Necklace7.2.avif"
+    ],
+    "rating": "4.6",
+    "reviews_count": 60,
+    "created_at": "2026-10-03T11:08:44.377Z",
+    "updated_at": "2026-10-04T05:52:58.304Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 7,
+  "fields": {
+    "name": "Aurora Necklace",
+    "slug": "aurora-necklace-7",
+    "category": 1,
+    "collection": "sun-kissed-ibiza-collection",
+    "description": "The aurora necklace pairs effortlessly with everything in your jewellery box. Lightweight, comfortable and made to last.",
+    "material": "925 sterling silver, 18k gold plating",
+    "price": "8399.00",
+    "sale_price": "6699.00",
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "Limited",
+    "is_bestseller": false,
+    "images": [
+      "/Necklace/Necklace10.2.avif",
+      "/Necklace/Necklace10.3.avif"
+    ],
+    "rating": "4.4",
+    "reviews_count": 107,
+    "created_at": "2026-10-03T11:08:44.382Z",
+    "updated_at": "2026-10-04T06:00:17.382Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 8,
+  "fields": {
+    "name": "Celeste Necklace",
+    "slug": "celeste-necklace-8",
+    "category": 1,
+    "collection": "",
+    "description": "A beautifully handcrafted celeste necklace, designed to add a delicate touch of elegance to any outfit. Perfect for everyday wear or gifting.",
+    "material": "925 sterling silver, 18k gold plating",
+    "price": "7399.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": true,
+    "images": [
+      "/Necklace/Necklace2.1.avif",
+      "/Necklace/Necklace2.2.avif",
+      "/Necklace/Necklace2.3.avif"
+    ],
+    "rating": "4.2",
+    "reviews_count": 197,
+    "created_at": "2026-10-03T11:08:44.392Z",
+    "updated_at": "2026-10-03T17:27:20.136Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 9,
+  "fields": {
+    "name": "Ivy Vine Necklace",
+    "slug": "ivy-vine-necklace-9",
+    "category": 1,
+    "collection": "",
+    "description": "The ivy vine necklace pairs effortlessly with everything in your jewellery box. Lightweight, comfortable and made to last.",
+    "material": "925 sterling silver, 18k gold plating",
+    "price": "5499.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": true,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Necklace/Necklace9.3.avif",
+      "/Necklace/Necklace9.2.avif",
+      "/Necklace/Necklace9.1.avif"
+    ],
+    "rating": "4.4",
+    "reviews_count": 174,
+    "created_at": "2026-10-03T11:08:44.401Z",
+    "updated_at": "2026-10-04T05:57:41.783Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 10,
+  "fields": {
+    "name": "Clover Heart Necklace",
+    "slug": "clover-heart-necklace-10",
+    "category": 1,
+    "collection": "sweet-valentina-collection",
+    "description": "The clover heart necklace pairs effortlessly with everything in your jewellery box. Lightweight, comfortable and made to last.",
+    "material": "925 sterling silver, 18k gold plating",
+    "price": "4299.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": true,
+    "badge": "New",
+    "is_bestseller": false,
+    "images": [
+      "/Necklace/Necklace8.1.avif",
+      "/Necklace/Necklace8.2.avif",
+      "/Necklace/Necklace8.3.avif"
+    ],
+    "rating": "4.5",
+    "reviews_count": 89,
+    "created_at": "2026-10-03T11:08:44.410Z",
+    "updated_at": "2026-10-04T05:55:35.692Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 11,
+  "fields": {
+    "name": "Star Charm Necklace",
+    "slug": "star-charm-necklace-11",
+    "category": 1,
+    "collection": "",
+    "description": "The star charm necklace pairs effortlessly with everything in your jewellery box. Lightweight, comfortable and made to last.",
+    "material": "925 sterling silver, 18k gold plating",
+    "price": "9199.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Necklace/Necklace22.1.avif",
+      "/Necklace/Necklace22.2.avif",
+      "/Necklace/Necklace22.3.avif"
+    ],
+    "rating": "4.9",
+    "reviews_count": 56,
+    "created_at": "2026-10-03T11:08:44.418Z",
+    "updated_at": "2026-10-05T06:23:23.772Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 12,
+  "fields": {
+    "name": "Sunflower Necklace",
+    "slug": "sunflower-necklace-12",
+    "category": 1,
+    "collection": "sun-kissed-ibiza-collection",
+    "description": "The sunflower necklace pairs effortlessly with everything in your jewellery box. Lightweight, comfortable and made to last.",
+    "material": "925 sterling silver, 18k gold plating",
+    "price": "3999.00",
+    "sale_price": "3199.00",
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": true,
+    "badge": "Limited",
+    "is_bestseller": false,
+    "images": [
+      "/Necklace/Necklace14.2.avif",
+      "/Necklace/Necklace14.1.avif",
+      "/Necklace/Necklace14.3.avif"
+    ],
+    "rating": "4.6",
+    "reviews_count": 174,
+    "created_at": "2026-10-03T11:08:44.422Z",
+    "updated_at": "2026-10-04T15:10:42.458Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 13,
+  "fields": {
+    "name": "Wave Necklace",
+    "slug": "wave-necklace-13",
+    "category": 1,
+    "collection": "",
+    "description": "Inspired by quiet luxury, the wave necklace brings a soft shine to both day and evening looks.",
+    "material": "925 sterling silver, 18k gold plating",
+    "price": "7199.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": true,
+    "badge": "",
+    "is_bestseller": true,
+    "images": [
+      "/Necklace/Necklace4.2.avif",
+      "/Necklace/Necklace4.1.avif",
+      "/Necklace/Necklace4.3.avif"
+    ],
+    "rating": "4.8",
+    "reviews_count": 118,
+    "created_at": "2026-10-03T11:08:44.422Z",
+    "updated_at": "2026-10-03T17:34:19.494Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 14,
+  "fields": {
+    "name": "Infinity Necklace",
+    "slug": "infinity-necklace-14",
+    "category": 1,
+    "collection": "",
+    "description": "A beautifully handcrafted infinity necklace, designed to add a delicate touch of elegance to any outfit. Perfect for everyday wear or gifting.",
+    "material": "925 sterling silver, 18k gold plating",
+    "price": "6099.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": true,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Necklace/Necklace23.1.avif",
+      "/Necklace/Necklace23.2.avif",
+      "/Necklace/Necklace23.3.avif",
+      "/Necklace/Necklace23.4.avif"
+    ],
+    "rating": "4.4",
+    "reviews_count": 31,
+    "created_at": "2026-10-03T11:08:44.438Z",
+    "updated_at": "2026-10-05T06:24:17.938Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 15,
+  "fields": {
+    "name": "Butterfly Necklace",
+    "slug": "butterfly-necklace-15",
+    "category": 1,
+    "collection": "",
+    "description": "Inspired by quiet luxury, the butterfly necklace brings a soft shine to both day and evening looks.",
+    "material": "925 sterling silver, 18k gold plating",
+    "price": "4199.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Necklace/Necklace5.1.avif",
+      "/Necklace/Necklace5.2.avif",
+      "/Necklace/Necklace5.3.avif",
+      "/Necklace/Necklace5.4.avif"
+    ],
+    "rating": "4.5",
+    "reviews_count": 180,
+    "created_at": "2026-10-03T11:08:44.438Z",
+    "updated_at": "2026-10-03T18:01:30.775Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 16,
+  "fields": {
+    "name": "Cloud Nine Necklace",
+    "slug": "cloud-nine-necklace-16",
+    "category": 1,
+    "collection": "autumn-collection",
+    "description": "The cloud nine necklace pairs effortlessly with everything in your jewellery box. Lightweight, comfortable and made to last.",
+    "material": "925 sterling silver, 18k gold plating",
+    "price": "5099.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": true,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Necklace/Necklace15.1.avif",
+      "/Necklace/Necklace15.2.avif"
+    ],
+    "rating": "4.3",
+    "reviews_count": 44,
+    "created_at": "2026-10-03T11:08:44.456Z",
+    "updated_at": "2026-10-04T15:12:16.357Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 17,
+  "fields": {
+    "name": "Ocean Breeze Necklace",
+    "slug": "ocean-breeze-necklace-17",
+    "category": 1,
+    "collection": "",
+    "description": "Inspired by quiet luxury, the ocean breeze necklace brings a soft shine to both day and evening looks.",
+    "material": "925 sterling silver, 18k gold plating",
+    "price": "8399.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Necklace/Necklace24.1.avif",
+      "/Necklace/Necklace24.2.avif",
+      "/Necklace/Necklace24.3.avif"
+    ],
+    "rating": "4.5",
+    "reviews_count": 194,
+    "created_at": "2026-10-03T11:08:44.456Z",
+    "updated_at": "2026-10-05T06:35:42.924Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 18,
+  "fields": {
+    "name": "Golden Bar Necklace",
+    "slug": "golden-bar-necklace-18",
+    "category": 1,
+    "collection": "",
+    "description": "A beautifully handcrafted golden bar necklace, designed to add a delicate touch of elegance to any outfit. Perfect for everyday wear or gifting.",
+    "material": "925 sterling silver, 18k gold plating",
+    "price": "6999.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "New",
+    "is_bestseller": true,
+    "images": [
+      "/Necklace/Necklace3.1.avif",
+      "/Necklace/Necklace3.2.avif",
+      "/Necklace/Necklace3.3.avif"
+    ],
+    "rating": "4.4",
+    "reviews_count": 75,
+    "created_at": "2026-10-03T11:08:44.471Z",
+    "updated_at": "2026-10-03T17:41:54.720Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 19,
+  "fields": {
+    "name": "Coin Necklace",
+    "slug": "coin-necklace-19",
+    "category": 1,
+    "collection": "autumn-collection",
+    "description": "The coin necklace pairs effortlessly with everything in your jewellery box. Lightweight, comfortable and made to last.",
+    "material": "925 sterling silver, 18k gold plating",
+    "price": "6999.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Necklace/Necklace25.1.avif",
+      "/Necklace/Necklace25.2.avif"
+    ],
+    "rating": "4.7",
+    "reviews_count": 76,
+    "created_at": "2026-10-03T11:08:44.474Z",
+    "updated_at": "2026-10-05T06:36:24.360Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 20,
+  "fields": {
+    "name": "Cube Locket Necklace",
+    "slug": "cube-locket-necklace-20",
+    "category": 1,
+    "collection": "",
+    "description": "Inspired by quiet luxury, the cube locket necklace brings a soft shine to both day and evening looks.",
+    "material": "925 sterling silver, 18k gold plating",
+    "price": "4799.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": true,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Necklace/Necklace6.1.avif",
+      "/Necklace/Necklace6.2.avif"
+    ],
+    "rating": "4.6",
+    "reviews_count": 106,
+    "created_at": "2026-10-03T11:08:44.488Z",
+    "updated_at": "2026-10-05T06:20:48.893Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 21,
+  "fields": {
+    "name": "Leaf Pearl Necklace",
+    "slug": "leaf-pearl-necklace-21",
+    "category": 1,
+    "collection": "autumn-collection",
+    "description": "The tulip necklace pairs effortlessly with everything in your jewellery box. Lightweight, comfortable and made to last.",
+    "material": "925 sterling silver, 18k gold plating",
+    "price": "6399.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": true,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Necklace/Necklace26.1.avif",
+      "/Necklace/Necklace26.2.avif",
+      "/Necklace/Necklace26.3.avif"
+    ],
+    "rating": "4.3",
+    "reviews_count": 70,
+    "created_at": "2026-10-03T11:08:44.496Z",
+    "updated_at": "2026-10-05T06:40:17.782Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 22,
+  "fields": {
+    "name": "Crescent Moon Necklace",
+    "slug": "crescent-moon-necklace-22",
+    "category": 1,
+    "collection": "sun-kissed-ibiza-collection",
+    "description": "A beautifully handcrafted crescent moon necklace, designed to add a delicate touch of elegance to any outfit. Perfect for everyday wear or gifting.",
+    "material": "925 sterling silver, 18k gold plating",
+    "price": "6599.00",
+    "sale_price": "5299.00",
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Necklace/Necklace20.1.avif",
+      "/Necklace/Necklace20.2.avif",
+      "/Necklace/Necklace20.3.avif"
+    ],
+    "rating": "4.8",
+    "reviews_count": 218,
+    "created_at": "2026-10-03T11:08:44.503Z",
+    "updated_at": "2026-10-04T15:37:37.733Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 23,
+  "fields": {
+    "name": "Cross Pendant Necklace",
+    "slug": "cross-pendant-necklace-23",
+    "category": 1,
+    "collection": "autumn-collection",
+    "description": "Inspired by quiet luxury, the cross pendant necklace brings a soft shine to both day and evening looks.",
+    "material": "925 sterling silver, 18k gold plating",
+    "price": "8099.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "Limited",
+    "is_bestseller": true,
+    "images": [
+      "/Necklace/Necklace17.1.avif",
+      "/Necklace/Necklace17.2.avif",
+      "/Necklace/Necklace17.3.avif"
+    ],
+    "rating": "4.5",
+    "reviews_count": 120,
+    "created_at": "2026-10-03T11:08:44.505Z",
+    "updated_at": "2026-10-04T15:17:12.461Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 24,
+  "fields": {
+    "name": "The Apex K9 Necklace",
+    "slug": "the-apex-k9-necklace-24",
+    "category": 1,
+    "collection": "sun-kissed-ibiza-collection",
+    "description": "High-polish silver curb links featuring a sculpted bulldog holding a gold bone crafted to bring raw edge to your everyday style.",
+    "material": "925 sterling silver, 18k gold plating",
+    "price": "8299.00",
+    "sale_price": "6599.00",
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "New",
+    "is_bestseller": false,
+    "images": [
+      "/Necklace/Necklace21.2.avif",
+      "/Necklace/Necklace21.1.avif",
+      "/Necklace/Necklace21.3.avif",
+      "/Necklace/Necklace21.4.avif"
+    ],
+    "rating": "4.9",
+    "reviews_count": 186,
+    "created_at": "2026-10-03T11:08:44.522Z",
+    "updated_at": "2026-10-04T15:34:37.731Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 25,
+  "fields": {
+    "name": "Mira Pearl Strand",
+    "slug": "mira-pearl-strand-25",
+    "category": 1,
+    "collection": "sun-kissed-ibiza-collection",
+    "description": "A beautifully handcrafted mira pearl strand, designed to add a delicate touch of elegance to any outfit. Perfect for everyday wear or gifting.",
+    "material": "925 sterling silver, 18k gold plating",
+    "price": "9599.00",
+    "sale_price": "7699.00",
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "Limited",
+    "is_bestseller": false,
+    "images": [
+      "/Necklace/Necklace11.1.avif",
+      "/Necklace/Necklace11.2.avif"
+    ],
+    "rating": "4.5",
+    "reviews_count": 241,
+    "created_at": "2026-10-03T11:08:44.524Z",
+    "updated_at": "2026-10-04T06:05:06.650Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 26,
+  "fields": {
+    "name": "Charm Stack Bracelet",
+    "slug": "charm-stack-bracelet-26",
+    "category": 2,
+    "collection": "",
+    "description": "Inspired by quiet luxury, the charm stack bracelet brings a soft shine to both day and evening looks.",
+    "material": "Stainless steel, 18k gold plating",
+    "price": "3999.00",
+    "sale_price": "3199.00",
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": true,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Bracelet/Bracelet1.1.avif",
+      "/Bracelet/Bracelet1.2.avif",
+      "/Bracelet/Bracelet1.3.avif"
+    ],
+    "rating": "4.5",
+    "reviews_count": 51,
+    "created_at": "2026-10-03T11:08:44.538Z",
+    "updated_at": "2026-10-05T07:10:43.129Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 27,
+  "fields": {
+    "name": "Chain Link Bracelet",
+    "slug": "chain-link-bracelet-27",
+    "category": 2,
+    "collection": "",
+    "description": "Inspired by quiet luxury, the chain link bracelet brings a soft shine to both day and evening looks.",
+    "material": "Stainless steel, 18k gold plating",
+    "price": "3299.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": true,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Bracelet/Bracelet2.1.avif",
+      "/Bracelet/Bracelet2.2.avif"
+    ],
+    "rating": "4.3",
+    "reviews_count": 56,
+    "created_at": "2026-10-03T11:08:44.548Z",
+    "updated_at": "2026-10-05T07:11:55.498Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 28,
+  "fields": {
+    "name": "Pearl Stack Bracelet",
+    "slug": "pearl-stack-bracelet-28",
+    "category": 2,
+    "collection": "sweet-valentina-collection",
+    "description": "The pearl stack bracelet pairs effortlessly with everything in your jewellery box. Lightweight, comfortable and made to last.",
+    "material": "Stainless steel, 18k gold plating",
+    "price": "5599.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": true,
+    "badge": "New",
+    "is_bestseller": true,
+    "images": [
+      "/Bracelet/Bracelet3.1.avif",
+      "/Bracelet/Bracelet3.2.avif",
+      "/Bracelet/Bracelet3.3.avif"
+    ],
+    "rating": "4.6",
+    "reviews_count": 48,
+    "created_at": "2026-10-03T11:08:44.554Z",
+    "updated_at": "2026-10-05T07:12:28.195Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 29,
+  "fields": {
+    "name": "Gold Cuff Bracelet",
+    "slug": "gold-cuff-bracelet-29",
+    "category": 2,
+    "collection": "",
+    "description": "A beautifully handcrafted gold cuff bracelet, designed to add a delicate touch of elegance to any outfit. Perfect for everyday wear or gifting.",
+    "material": "Stainless steel, 18k gold plating",
+    "price": "5799.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Bracelet/Bracelet4.1.avif",
+      "/Bracelet/Bracelet4.2.avif"
+    ],
+    "rating": "4.4",
+    "reviews_count": 88,
+    "created_at": "2026-10-03T11:08:44.556Z",
+    "updated_at": "2026-10-05T07:13:24.577Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 30,
+  "fields": {
+    "name": "Daisy Beat Bracelet",
+    "slug": "daisy-beat-bracelet-30",
+    "category": 2,
+    "collection": "sweet-valentina-collection",
+    "description": "Inspired by quiet luxury, the daisy chain bracelet brings a soft shine to both day and evening looks.",
+    "material": "Stainless steel, 18k gold plating",
+    "price": "3199.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "New",
+    "is_bestseller": false,
+    "images": [
+      "/Bracelet/Bracelet5.1.avif",
+      "/Bracelet/Bracelet5.2.avif"
+    ],
+    "rating": "4.6",
+    "reviews_count": 195,
+    "created_at": "2026-10-03T11:08:44.578Z",
+    "updated_at": "2026-10-05T07:16:01.524Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 31,
+  "fields": {
+    "name": "Infinity Loop Bracelet",
+    "slug": "infinity-loop-bracelet-31",
+    "category": 2,
+    "collection": "",
+    "description": "The infinity loop bracelet pairs effortlessly with everything in your jewellery box. Lightweight, comfortable and made to last.",
+    "material": "Stainless steel, 18k gold plating",
+    "price": "4399.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Bracelet/Bracelet6.1.avif",
+      "/Bracelet/Bracelet6.2.avif"
+    ],
+    "rating": "4.8",
+    "reviews_count": 246,
+    "created_at": "2026-10-03T11:08:44.584Z",
+    "updated_at": "2026-10-05T07:14:34.504Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 32,
+  "fields": {
+    "name": "Heart Link Bracelet",
+    "slug": "heart-link-bracelet-32",
+    "category": 2,
+    "collection": "",
+    "description": "A beautifully handcrafted heart link bracelet, designed to add a delicate touch of elegance to any outfit. Perfect for everyday wear or gifting.",
+    "material": "Stainless steel, 18k gold plating",
+    "price": "7699.00",
+    "sale_price": "6199.00",
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": true,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Bracelet/Bracelet7.1.avif",
+      "/Bracelet/Bracelet7.2.avif"
+    ],
+    "rating": "4.7",
+    "reviews_count": 218,
+    "created_at": "2026-10-03T11:08:44.595Z",
+    "updated_at": "2026-10-05T07:15:03.500Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 33,
+  "fields": {
+    "name": "Snake Trail Bracelet",
+    "slug": "snake-trail-bracelet-33",
+    "category": 2,
+    "collection": "",
+    "description": "The snake trail bracelet pairs effortlessly with everything in your jewellery box. Lightweight, comfortable and made to last.",
+    "material": "Stainless steel, 18k gold plating",
+    "price": "3599.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": true,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": true,
+    "images": [
+      "/Bracelet/Bracelet8.1.avif",
+      "/Bracelet/Bracelet8.2.avif"
+    ],
+    "rating": "4.4",
+    "reviews_count": 42,
+    "created_at": "2026-10-03T11:08:44.603Z",
+    "updated_at": "2026-10-10T05:29:28.289Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 34,
+  "fields": {
+    "name": "Stone Bloom Bracelet",
+    "slug": "stone-bloom-bracelet-34",
+    "category": 2,
+    "collection": "autumn-collection",
+    "description": "The stone bloom bracelet pairs effortlessly with everything in your jewellery box. Lightweight, comfortable and made to last.",
+    "material": "Stainless steel, 18k gold plating",
+    "price": "4999.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Bracelet/Bracelet10.1.avif",
+      "/Bracelet/Bracelet10.2.avif"
+    ],
+    "rating": "4.4",
+    "reviews_count": 68,
+    "created_at": "2026-10-03T11:08:44.603Z",
+    "updated_at": "2026-10-10T05:33:37.744Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 35,
+  "fields": {
+    "name": "Beats Bracelet",
+    "slug": "beats-bracelet-35",
+    "category": 2,
+    "collection": "",
+    "description": "Inspired by quiet luxury, the beats bracelet brings a soft shine to both day and evening looks.",
+    "material": "Stainless steel, 18k gold plating",
+    "price": "4799.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": true,
+    "badge": "New",
+    "is_bestseller": false,
+    "images": [
+      "/Bracelet/Bracelet17.2.avif",
+      "/Bracelet/Bracelet17.1.avif",
+      "/Bracelet/Bracelet17.3.avif",
+      "/Bracelet/Bracelet17.4.avif"
+    ],
+    "rating": "4.6",
+    "reviews_count": 149,
+    "created_at": "2026-10-03T11:08:44.612Z",
+    "updated_at": "2026-10-10T05:44:51.476Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 36,
+  "fields": {
+    "name": "Shell Coast Bracelet",
+    "slug": "shell-coast-bracelet-36",
+    "category": 2,
+    "collection": "",
+    "description": "A beautifully handcrafted shell coast bracelet, designed to add a delicate touch of elegance to any outfit. Perfect for everyday wear or gifting.",
+    "material": "Stainless steel, 18k gold plating",
+    "price": "7799.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": true,
+    "badge": "New",
+    "is_bestseller": false,
+    "images": [
+      "/Bracelet/Bracelet13.1.avif",
+      "/Bracelet/Bracelet13.2.avif",
+      "/Bracelet/Bracelet13.3.avif"
+    ],
+    "rating": "4.8",
+    "reviews_count": 64,
+    "created_at": "2026-10-03T11:08:44.612Z",
+    "updated_at": "2026-10-10T05:36:56.004Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 37,
+  "fields": {
+    "name": "Green Stone Bracelet",
+    "slug": "green-stone-bracelet-37",
+    "category": 2,
+    "collection": "",
+    "description": "Inspired by quiet luxury, the layered green stone bracelet brings a soft shine to both day and evening looks.",
+    "material": "Natural stone, Sterling silver rope",
+    "price": "4399.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": true,
+    "badge": "New",
+    "is_bestseller": false,
+    "images": [
+      "/Bracelet/Bracelet18.1.avif",
+      "/Bracelet/Bracelet18.2.avif",
+      "/Bracelet/Bracelet18.3.avif"
+    ],
+    "rating": "4.8",
+    "reviews_count": 164,
+    "created_at": "2026-10-03T11:08:44.628Z",
+    "updated_at": "2026-10-10T05:47:17.461Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 38,
+  "fields": {
+    "name": "Minimal Cuff Bracelet",
+    "slug": "minimal-cuff-bracelet-38",
+    "category": 2,
+    "collection": "",
+    "description": "A beautifully handcrafted minimal cuff bracelet, designed to add a delicate touch of elegance to any outfit. Perfect for everyday wear or gifting.",
+    "material": "Stainless steel, 18k gold plating",
+    "price": "5499.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": true,
+    "badge": "",
+    "is_bestseller": true,
+    "images": [
+      "/Bracelet/Bracelet15.1.avif",
+      "/Bracelet/Bracelet15.2.avif"
+    ],
+    "rating": "4.6",
+    "reviews_count": 223,
+    "created_at": "2026-10-03T11:08:44.641Z",
+    "updated_at": "2026-10-10T05:40:48.175Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 39,
+  "fields": {
+    "name": "Woven Rope Bracelet",
+    "slug": "woven-rope-bracelet-39",
+    "category": 2,
+    "collection": "",
+    "description": "Inspired by quiet luxury, the woven rope bracelet brings a soft shine to both day and evening looks.",
+    "material": "Stainless steel, 18k gold plating",
+    "price": "4299.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": true,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Bracelet/Bracelet9.1.avif",
+      "/Bracelet/Bracelet9.2.avif",
+      "/Bracelet/Bracelet9.3.avif",
+      "/Bracelet/Bracelet9.4.avif"
+    ],
+    "rating": "4.5",
+    "reviews_count": 252,
+    "created_at": "2026-10-03T11:08:44.649Z",
+    "updated_at": "2026-10-10T05:31:04.126Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 40,
+  "fields": {
+    "name": "Blue Kiss Bracelet",
+    "slug": "blue-kiss-bracelet-40",
+    "category": 2,
+    "collection": "",
+    "description": "A beautifully handcrafted blue kiss bracelet, designed to add a delicate touch of elegance to any outfit. Perfect for everyday wear or gifting.",
+    "material": "Stainless steel, 18k gold plating",
+    "price": "4299.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": true,
+    "badge": "New",
+    "is_bestseller": false,
+    "images": [
+      "/Bracelet/Bracelet20.1.avif",
+      "/Bracelet/Bracelet20.2.avif",
+      "/Bracelet/Bracelet20.3.avif",
+      "/Bracelet/Bracelet20.4.avif"
+    ],
+    "rating": "4.3",
+    "reviews_count": 97,
+    "created_at": "2026-10-03T11:08:44.657Z",
+    "updated_at": "2026-10-10T05:51:35.227Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 41,
+  "fields": {
+    "name": "Clover Luck Bracelet",
+    "slug": "clover-luck-bracelet-41",
+    "category": 2,
+    "collection": "",
+    "description": "The clover luck bracelet pairs effortlessly with everything in your jewellery box. Lightweight, comfortable and made to last.",
+    "material": "Stainless steel, 18k gold plating",
+    "price": "6099.00",
+    "sale_price": "5199.00",
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Bracelet/Bracelet12.1.avif",
+      "/Bracelet/Bracelet12.2.avif",
+      "/Bracelet/Bracelet12.3.avif"
+    ],
+    "rating": "4.2",
+    "reviews_count": 22,
+    "created_at": "2026-10-03T11:08:44.665Z",
+    "updated_at": "2026-10-10T05:36:15.354Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 42,
+  "fields": {
+    "name": "Ocean Wave Bracelet",
+    "slug": "ocean-wave-bracelet-42",
+    "category": 2,
+    "collection": "",
+    "description": "Inspired by quiet luxury, the ocean wave bracelet brings a soft shine to both day and evening looks.",
+    "material": "Stainless steel, 18k gold plating",
+    "price": "6699.00",
+    "sale_price": "5699.00",
+    "stock": 25,
+    "sold_out": true,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Bracelet/Bracelet25.1.avif",
+      "/Bracelet/Bracelet25.1.avif"
+    ],
+    "rating": "4.8",
+    "reviews_count": 118,
+    "created_at": "2026-10-03T11:08:44.674Z",
+    "updated_at": "2026-10-10T06:07:19.655Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 43,
+  "fields": {
+    "name": "Sunburst Bracelet",
+    "slug": "sunburst-bracelet-43",
+    "category": 2,
+    "collection": "",
+    "description": "The sunburst bracelet pairs effortlessly with everything in your jewellery box. Lightweight, comfortable and made to last.",
+    "material": "Stainless steel, 18k gold plating",
+    "price": "7899.00",
+    "sale_price": "6299.00",
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": true,
+    "badge": "",
+    "is_bestseller": true,
+    "images": [
+      "/Bracelet/Bracelet22.1.avif",
+      "/Bracelet/Bracelet22.1.avif"
+    ],
+    "rating": "4.9",
+    "reviews_count": 232,
+    "created_at": "2026-10-03T11:08:44.676Z",
+    "updated_at": "2026-10-10T06:03:38.749Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 44,
+  "fields": {
+    "name": "Crystal pearl Bracelet",
+    "slug": "crystal-pearl-bracelet-44",
+    "category": 2,
+    "collection": "",
+    "description": "The crystal pearl drop bracelet pairs effortlessly with everything in your jewellery box. Lightweight, comfortable and made to last.",
+    "material": "Pearl,Sterling silver rope",
+    "price": "3599.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "New",
+    "is_bestseller": false,
+    "images": [
+      "/Bracelet/Bracelet19.1.avif",
+      "/Bracelet/Bracelet19.2.avif"
+    ],
+    "rating": "4.8",
+    "reviews_count": 189,
+    "created_at": "2026-10-03T11:08:44.692Z",
+    "updated_at": "2026-10-10T05:49:09.974Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 45,
+  "fields": {
+    "name": "Coin Row Bracelet",
+    "slug": "coin-row-bracelet-45",
+    "category": 2,
+    "collection": "sweet-valentina-collection",
+    "description": "The coin row bracelet pairs effortlessly with everything in your jewellery box. Lightweight, comfortable and made to last.",
+    "material": "Stainless steel, 18k gold plating",
+    "price": "7899.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": true,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Bracelet/Bracelet16.1.avif",
+      "/Bracelet/Bracelet16.2.avif"
+    ],
+    "rating": "4.9",
+    "reviews_count": 158,
+    "created_at": "2026-10-03T11:08:44.699Z",
+    "updated_at": "2026-10-10T05:42:14.945Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 46,
+  "fields": {
+    "name": "Textured Rope Bracelet",
+    "slug": "textured-rope-bracelet-46",
+    "category": 2,
+    "collection": "",
+    "description": "The textured rope bracelet pairs effortlessly with everything in your jewellery box. Lightweight, comfortable and made to last.",
+    "material": "Stainless steel, 18k gold plating",
+    "price": "4599.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": true,
+    "badge": "New",
+    "is_bestseller": false,
+    "images": [
+      "/Bracelet/Bracelet14.1.avif",
+      "/Bracelet/Bracelet14.2.avif",
+      "/Bracelet/Bracelet14.3.avif"
+    ],
+    "rating": "4.4",
+    "reviews_count": 185,
+    "created_at": "2026-10-03T11:08:44.708Z",
+    "updated_at": "2026-10-10T05:38:19.319Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 47,
+  "fields": {
+    "name": "Dainty Chain Bracelet",
+    "slug": "dainty-chain-bracelet-47",
+    "category": 2,
+    "collection": "",
+    "description": "A beautifully handcrafted dainty chain bracelet, designed to add a delicate touch of elegance to any outfit. Perfect for everyday wear or gifting.",
+    "material": "Stainless steel, 18k gold plating",
+    "price": "3999.00",
+    "sale_price": "3399.00",
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": true,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Bracelet/Bracelet23.1.avif",
+      "/Bracelet/Bracelet23.1.avif"
+    ],
+    "rating": "4.4",
+    "reviews_count": 179,
+    "created_at": "2026-10-03T11:08:44.715Z",
+    "updated_at": "2026-10-10T06:04:49.873Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 48,
+  "fields": {
+    "name": "Braided Charm Bracelet",
+    "slug": "braided-charm-bracelet-48",
+    "category": 2,
+    "collection": "",
+    "description": "The braided charm bracelet pairs effortlessly with everything in your jewellery box. Lightweight, comfortable and made to last.",
+    "material": "Stainless steel, 18k gold plating",
+    "price": "4199.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": true,
+    "badge": "",
+    "is_bestseller": true,
+    "images": [
+      "/Bracelet/Bracelet21.1.avif",
+      "/Bracelet/Bracelet21.2.avif"
+    ],
+    "rating": "4.7",
+    "reviews_count": 144,
+    "created_at": "2026-10-03T11:08:44.727Z",
+    "updated_at": "2026-10-10T05:53:40.007Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 49,
+  "fields": {
+    "name": "Moon Bracelet",
+    "slug": "moon-bracelet-49",
+    "category": 2,
+    "collection": "sun-kissed-ibiza-collection",
+    "description": "Inspired by quiet luxury, the moon bracelet brings a soft shine to both day and evening looks.",
+    "material": "Stainless steel, 18k gold plating",
+    "price": "3699.00",
+    "sale_price": "2999.00",
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Bracelet/Bracelet24.1.avif",
+      "/Bracelet/Bracelet24.1.avif"
+    ],
+    "rating": "4.3",
+    "reviews_count": 152,
+    "created_at": "2026-10-03T11:08:44.740Z",
+    "updated_at": "2026-10-10T06:08:01.175Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 50,
+  "fields": {
+    "name": "Lunar Bracelet",
+    "slug": "lunar-bracelet-50",
+    "category": 2,
+    "collection": "sun-kissed-ibiza-collection",
+    "description": "A beautifully handcrafted lunar bracelet, designed to add a delicate touch of elegance to any outfit. Perfect for everyday wear or gifting.",
+    "material": "Stainless steel, 18k gold plating",
+    "price": "6799.00",
+    "sale_price": "5399.00",
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": true,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Bracelet/Bracelet11.1.avif",
+      "/Bracelet/Bracelet11.2.avif"
+    ],
+    "rating": "4.3",
+    "reviews_count": 110,
+    "created_at": "2026-10-03T11:08:44.742Z",
+    "updated_at": "2026-10-10T05:35:18.328Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 51,
+  "fields": {
+    "name": "Golden Hoop Earrings",
+    "slug": "golden-hoop-earrings-51",
+    "category": 3,
+    "collection": "sweet-valentina-collection",
+    "description": "The golden hoop earrings pairs effortlessly with everything in your jewellery box. Lightweight, comfortable and made to last.",
+    "material": "925 sterling silver posts, hypoallergenic",
+    "price": "5799.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Earring/Earring1.1.avif",
+      "/Earring/Earring1.2.avif"
+    ],
+    "rating": "4.4",
+    "reviews_count": 134,
+    "created_at": "2026-10-03T11:08:44.784Z",
+    "updated_at": "2026-10-12T07:53:32.921Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 52,
+  "fields": {
+    "name": "Pearl Stud Earrings",
+    "slug": "pearl-stud-earrings-52",
+    "category": 3,
+    "collection": "",
+    "description": "Inspired by quiet luxury, the pearl stud earrings brings a soft shine to both day and evening looks.",
+    "material": "925 sterling silver posts, hypoallergenic",
+    "price": "5199.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Earring/Earring5.1.avif",
+      "/Earring/Earring5.2.avif",
+      "/Earring/Earring5.3.avif",
+      "/Earring/Earring5.4.avif"
+    ],
+    "rating": "4.7",
+    "reviews_count": 82,
+    "created_at": "2026-10-03T11:08:44.795Z",
+    "updated_at": "2026-10-12T08:01:33.992Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 53,
+  "fields": {
+    "name": "Stone Drop Earrings",
+    "slug": "stone-drop-earrings-53",
+    "category": 3,
+    "collection": "",
+    "description": "The stone drop earrings pairs effortlessly with everything in your jewellery box. Lightweight, comfortable and made to last.",
+    "material": "925 sterling silver posts, hypoallergenic, 18k gold plated",
+    "price": "5199.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": true,
+    "images": [
+      "/Earring/Earring4.2.avif",
+      "/Earring/Earring4.1.avif",
+      "/Earring/Earring4.3.avif",
+      "/Earring/Earring4.4.avif"
+    ],
+    "rating": "4.8",
+    "reviews_count": 37,
+    "created_at": "2026-10-03T11:08:44.804Z",
+    "updated_at": "2026-10-12T08:00:01.296Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 54,
+  "fields": {
+    "name": "Petal Earrings",
+    "slug": "petal-earrings-54",
+    "category": 3,
+    "collection": "",
+    "description": "Inspired by quiet luxury, the petal earrings brings a soft shine to both day and evening looks.",
+    "material": "925 sterling silver posts, hypoallergenic",
+    "price": "3899.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Earring/Earring8.1.avif",
+      "/Earring/Earring8.2.avif",
+      "/Earring/Earring8.3.avif"
+    ],
+    "rating": "4.3",
+    "reviews_count": 83,
+    "created_at": "2026-10-03T11:08:44.812Z",
+    "updated_at": "2026-10-12T08:05:40.891Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 55,
+  "fields": {
+    "name": "Mini Stud Earrings",
+    "slug": "mini-stud-earrings-55",
+    "category": 3,
+    "collection": "autumn-collection",
+    "description": "Inspired by quiet luxury, the stud earrings brings a soft shine to both day and evening looks.",
+    "material": "925 sterling silver posts, hypoallergenic",
+    "price": "4599.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Earring/Earring12.1.avif",
+      "/Earring/Earring12.2.avif"
+    ],
+    "rating": "4.3",
+    "reviews_count": 73,
+    "created_at": "2026-10-03T11:08:44.822Z",
+    "updated_at": "2026-10-12T08:12:01.679Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 56,
+  "fields": {
+    "name": "Chain Dangle Earrings",
+    "slug": "chain-dangle-earrings-56",
+    "category": 3,
+    "collection": "",
+    "description": "Inspired by quiet luxury, the chain dangle earrings brings a soft shine to both day and evening looks.",
+    "material": "925 sterling silver posts, hypoallergenic",
+    "price": "4699.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Earring/Earring9.1.avif",
+      "/Earring/Earring9.2.avif"
+    ],
+    "rating": "4.3",
+    "reviews_count": 39,
+    "created_at": "2026-10-03T11:08:44.830Z",
+    "updated_at": "2026-10-12T08:06:53.335Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 57,
+  "fields": {
+    "name": "Flower Stud Earrings",
+    "slug": "flower-stud-earrings-57",
+    "category": 3,
+    "collection": "autumn-collection",
+    "description": "The flower stud earrings pairs effortlessly with everything in your jewellery box. Lightweight, comfortable and made to last.",
+    "material": "925 sterling silver posts, hypoallergenic",
+    "price": "5699.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "New",
+    "is_bestseller": false,
+    "images": [
+      "/Earring/Earring11.1.avif",
+      "/Earring/Earring11.2.avif"
+    ],
+    "rating": "4.5",
+    "reviews_count": 252,
+    "created_at": "2026-10-03T11:08:44.838Z",
+    "updated_at": "2026-10-12T08:10:02.070Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 58,
+  "fields": {
+    "name": "Heart Drop Earrings",
+    "slug": "heart-drop-earrings-58",
+    "category": 3,
+    "collection": "sun-kissed-ibiza-collection",
+    "description": "A beautifully handcrafted heart drop earrings, designed to add a delicate touch of elegance to any outfit. Perfect for everyday wear or gifting.",
+    "material": "925 sterling silver posts, hypoallergenic",
+    "price": "5799.00",
+    "sale_price": "4599.00",
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "Limited",
+    "is_bestseller": true,
+    "images": [
+      "/Earring/Earring3.1.avif",
+      "/Earring/Earring3.2.avif"
+    ],
+    "rating": "4.6",
+    "reviews_count": 179,
+    "created_at": "2026-10-03T11:08:44.846Z",
+    "updated_at": "2026-10-12T07:56:47.939Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 59,
+  "fields": {
+    "name": "Butterfly Wing Earrings",
+    "slug": "butterfly-wing-earrings-59",
+    "category": 3,
+    "collection": "",
+    "description": "The butterfly wing earrings pairs effortlessly with everything in your jewellery box. Lightweight, comfortable and made to last.",
+    "material": "925 sterling silver posts, hypoallergenic",
+    "price": "3999.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Earring/Earring19.1.avif",
+      "/Earring/Earring19.2.avif"
+    ],
+    "rating": "4.2",
+    "reviews_count": 18,
+    "created_at": "2026-10-03T11:08:44.854Z",
+    "updated_at": "2026-10-12T08:23:47.942Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 60,
+  "fields": {
+    "name": "Crystal Shine Earrings",
+    "slug": "crystal-shine-earrings-60",
+    "category": 3,
+    "collection": "",
+    "description": "The crystal shine earrings pairs effortlessly with everything in your jewellery box. Lightweight, comfortable and made to last.",
+    "material": "925 sterling silver, 18k gold plated",
+    "price": "5799.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Earring/Earring2.1.avif",
+      "/Earring/Earring2.2.avif",
+      "/Earring/Earring2.3.avif"
+    ],
+    "rating": "4.3",
+    "reviews_count": 102,
+    "created_at": "2026-10-03T11:08:44.856Z",
+    "updated_at": "2026-10-12T07:55:19.810Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 61,
+  "fields": {
+    "name": "Threader Earrings",
+    "slug": "threader-earrings-61",
+    "category": 3,
+    "collection": "sweet-valentina-collection",
+    "description": "The threader earrings pairs effortlessly with everything in your jewellery box. Lightweight, comfortable and made to last.",
+    "material": "925 sterling silver posts,18k gold plated",
+    "price": "2999.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Earring/Earring6.1.avif",
+      "/Earring/Earring6.2.avif",
+      "/Earring/Earring6.3.avif"
+    ],
+    "rating": "4.5",
+    "reviews_count": 118,
+    "created_at": "2026-10-03T11:08:44.866Z",
+    "updated_at": "2026-10-12T08:02:59.213Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 62,
+  "fields": {
+    "name": "Cluster Bloom Earrings",
+    "slug": "cluster-bloom-earrings-62",
+    "category": 3,
+    "collection": "",
+    "description": "A beautifully handcrafted cluster bloom earrings, designed to add a delicate touch of elegance to any outfit. Perfect for everyday wear or gifting.",
+    "material": "925 sterling silver, 18k gold plated",
+    "price": "3599.00",
+    "sale_price": "3099.00",
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": true,
+    "images": [
+      "/Earring/Earring7.1.avif",
+      "/Earring/Earring7.2.avif"
+    ],
+    "rating": "4.2",
+    "reviews_count": 187,
+    "created_at": "2026-10-03T11:08:44.878Z",
+    "updated_at": "2026-10-12T08:04:07.558Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 63,
+  "fields": {
+    "name": "Handcraft Earrings",
+    "slug": "Handcraft-earrings-63",
+    "category": 3,
+    "collection": "",
+    "description": "The handcrafted earrings pairs effortlessly with everything in your jewellery box. Lightweight, comfortable and made to last.",
+    "material": "925 sterling silver posts, hypoallergenic",
+    "price": "3099.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": true,
+    "images": [
+      "/Earring/Earring16.1.avif",
+      "/Earring/Earring16.2.avif"
+    ],
+    "rating": "4.7",
+    "reviews_count": 127,
+    "created_at": "2026-10-03T11:08:44.882Z",
+    "updated_at": "2026-10-12T08:18:14.368Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 64,
+  "fields": {
+    "name": "Star Hoop Earrings",
+    "slug": "star-hoop-earrings-64",
+    "category": 3,
+    "collection": "",
+    "description": "A beautifully handcrafted star hoop earrings, designed to add a delicate touch of elegance to any outfit. Perfect for everyday wear or gifting.",
+    "material": "925 sterling silver, 18k gold plating",
+    "price": "5499.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Earring/Earring17.1.avif",
+      "/Earring/Earring17.2.avif"
+    ],
+    "rating": "4.7",
+    "reviews_count": 30,
+    "created_at": "2026-10-03T11:08:44.888Z",
+    "updated_at": "2026-10-12T08:20:07.000Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 65,
+  "fields": {
+    "name": "Shell Coast Earrings",
+    "slug": "shell-coast-earrings-65",
+    "category": 3,
+    "collection": "autumn-collection",
+    "description": "A beautifully handcrafted shell coast earrings, designed to add a delicate touch of elegance to any outfit. Perfect for everyday wear or gifting.",
+    "material": "925 sterling silver posts, 18k gold plated",
+    "price": "5699.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Earring/Earring13.1.avif",
+      "/Earring/Earring13.1.avif"
+    ],
+    "rating": "4.3",
+    "reviews_count": 124,
+    "created_at": "2026-10-03T11:08:44.902Z",
+    "updated_at": "2026-10-12T08:13:13.440Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 66,
+  "fields": {
+    "name": "Charm Dangle Earrings",
+    "slug": "charm-dangle-earrings-66",
+    "category": 3,
+    "collection": "",
+    "description": "The charm dangle earrings pairs effortlessly with everything in your jewellery box. Lightweight, comfortable and made to last.",
+    "material": "925 sterling silver posts, hypoallergenic",
+    "price": "3399.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Earring/Earring15.1.avif",
+      "/Earring/Earring15.1.avif"
+    ],
+    "rating": "4.5",
+    "reviews_count": 189,
+    "created_at": "2026-10-03T11:08:44.912Z",
+    "updated_at": "2026-10-12T08:16:39.403Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 67,
+  "fields": {
+    "name": "Twist Knot Earrings",
+    "slug": "twist-knot-earrings-67",
+    "category": 3,
+    "collection": "",
+    "description": "A beautifully handcrafted twist knot earrings, designed to add a delicate touch of elegance to any outfit. Perfect for everyday wear or gifting.",
+    "material": "925 sterling silver posts, hypoallergenic",
+    "price": "6599.00",
+    "sale_price": "4898.63",
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "Limited",
+    "is_bestseller": false,
+    "images": [
+      "/Earring/Earring24.1.avif",
+      "/Earring/Earring24.2.avif",
+      "/Earring/Earring24.3.avif"
+    ],
+    "rating": "4.5",
+    "reviews_count": 103,
+    "created_at": "2026-10-03T11:08:44.922Z",
+    "updated_at": "2026-10-20T17:09:46.169Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 68,
+  "fields": {
+    "name": "Love Drop Earrings",
+    "slug": "love-drop-earrings-68",
+    "category": 3,
+    "collection": "",
+    "description": "A beautifully handcrafted love drop earrings, designed to add a delicate touch of elegance to any outfit. Perfect for everyday wear or gifting.",
+    "material": "925 sterling silver posts, 18k gold plated",
+    "price": "5999.00",
+    "sale_price": "4799.00",
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": true,
+    "images": [
+      "/Earring/Earring18.1.avif",
+      "/Earring/Earring18.2.avif"
+    ],
+    "rating": "4.4",
+    "reviews_count": 112,
+    "created_at": "2026-10-03T11:08:44.928Z",
+    "updated_at": "2026-10-12T08:21:56.962Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 69,
+  "fields": {
+    "name": "Half Moon Earrings",
+    "slug": "half-moon-earrings-69",
+    "category": 3,
+    "collection": "",
+    "description": "Inspired by quiet luxury, the half moon earrings brings a soft shine to both day and evening looks.",
+    "material": "925 sterling silver posts, hypoallergenic",
+    "price": "2999.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Earring/Earring22.1.avif",
+      "/Earring/Earring22.2.avif"
+    ],
+    "rating": "4.6",
+    "reviews_count": 114,
+    "created_at": "2026-10-03T11:08:44.937Z",
+    "updated_at": "2026-10-20T17:05:14.169Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 70,
+  "fields": {
+    "name": "Sunburst Earrings",
+    "slug": "sunburst-earrings-70",
+    "category": 3,
+    "collection": "",
+    "description": "Inspired by quiet luxury, the sunburst earrings brings a soft shine to both day and evening looks.",
+    "material": "925 sterling silver posts, hypoallergenic",
+    "price": "3099.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Earring/Earring21.1.avif",
+      "/Earring/Earring21.2.avif",
+      "/Earring/Earring21.3.avif"
+    ],
+    "rating": "4.6",
+    "reviews_count": 238,
+    "created_at": "2026-10-03T11:08:44.943Z",
+    "updated_at": "2026-10-20T17:04:12.907Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 71,
+  "fields": {
+    "name": "Daisy Stud Earrings",
+    "slug": "daisy-stud-earrings-71",
+    "category": 3,
+    "collection": "",
+    "description": "The daisy stud earrings pairs effortlessly with everything in your jewellery box. Lightweight, comfortable and made to last.",
+    "material": "925 sterling silver posts, hypoallergenic",
+    "price": "5399.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "New",
+    "is_bestseller": false,
+    "images": [
+      "/Earring/Earring10.1.avif",
+      "/Earring/Earring10.2.avif"
+    ],
+    "rating": "4.8",
+    "reviews_count": 241,
+    "created_at": "2026-10-03T11:08:44.953Z",
+    "updated_at": "2026-10-12T08:07:59.111Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 72,
+  "fields": {
+    "name": "Dewdrop Hoop Earrings",
+    "slug": "dewdrop-hoop-earrings-72",
+    "category": 3,
+    "collection": "",
+    "description": "The dewdrop hoop earrings pairs effortlessly with everything in your jewellery box. Lightweight, comfortable and made to last.",
+    "material": "925 sterling silver posts, hypoallergenic",
+    "price": "5899.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "New",
+    "is_bestseller": false,
+    "images": [
+      "/Earring/Earring23.1.avif",
+      "/Earring/Earring23.1.avif"
+    ],
+    "rating": "4.2",
+    "reviews_count": 118,
+    "created_at": "2026-10-03T11:08:44.961Z",
+    "updated_at": "2026-10-20T17:08:05.440Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 73,
+  "fields": {
+    "name": "Marigold  Earrings",
+    "slug": "marigold-earrings-73",
+    "category": 3,
+    "collection": "",
+    "description": "A beautifully handcrafted marigold earrings, designed to add a delicate touch of elegance to any outfit. Perfect for everyday wear or gifting.",
+    "material": "925 sterling silver posts, hypoallergenic",
+    "price": "5699.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": true,
+    "images": [
+      "/Earring/Earring20.1.avif",
+      "/Earring/Earring20.2.avif"
+    ],
+    "rating": "4.3",
+    "reviews_count": 151,
+    "created_at": "2026-10-03T11:08:44.969Z",
+    "updated_at": "2026-10-12T08:26:24.989Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 74,
+  "fields": {
+    "name": "Zara Earrings",
+    "slug": "zara-earrings-74",
+    "category": 3,
+    "collection": "",
+    "description": "A beautifully handcrafted zara earrings, designed to add a delicate touch of elegance to any outfit. Perfect for everyday wear or gifting.",
+    "material": "925 sterling silver posts, hypoallergenic",
+    "price": "5899.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "New",
+    "is_bestseller": false,
+    "images": [
+      "/Earring/Earring25.1.avif",
+      "/Earring/Earring25.2.avif"
+    ],
+    "rating": "4.6",
+    "reviews_count": 28,
+    "created_at": "2026-10-03T11:08:44.979Z",
+    "updated_at": "2026-10-20T17:11:02.251Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 75,
+  "fields": {
+    "name": "Opal Earrings",
+    "slug": "opal-earrings-75",
+    "category": 3,
+    "collection": "sun-kissed-ibiza-collection",
+    "description": "Inspired by quiet luxury, the opal earrings brings a soft shine to both day and evening looks.",
+    "material": "925 sterling silver posts, hypoallergenic",
+    "price": "4998.88",
+    "sale_price": "3599.00",
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "New",
+    "is_bestseller": false,
+    "images": [
+      "/Earring/Earring14.1.avif",
+      "/Earring/Earring14.1.avif"
+    ],
+    "rating": "4.4",
+    "reviews_count": 180,
+    "created_at": "2026-10-03T11:08:44.995Z",
+    "updated_at": "2026-10-12T08:15:24.246Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 76,
+  "fields": {
+    "name": "Classic Stone Ring",
+    "slug": "classic-stone-ring-76",
+    "category": 4,
+    "collection": "autumn-collection",
+    "description": "The classic band ring pairs effortlessly with everything in your jewellery box. Lightweight, comfortable and made to last.",
+    "material": "925 sterling silver, 18k gold coating",
+    "price": "4499.00",
+    "sale_price": "3799.00",
+    "stock": 24,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Ring/Ring3.1.avif",
+      "/Ring/ring3.2.avif"
+    ],
+    "rating": "4.4",
+    "reviews_count": 171,
+    "created_at": "2026-10-03T11:08:45.003Z",
+    "updated_at": "2026-10-22T09:56:16.512Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 77,
+  "fields": {
+    "name": "Signet Ring",
+    "slug": "signet-ring-77",
+    "category": 4,
+    "collection": "autumn-collection",
+    "description": "The signet ring pairs effortlessly with everything in your jewellery box. Lightweight, comfortable and made to last.",
+    "material": "925 sterling silver, 18k gold plating",
+    "price": "2499.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Ring/Ring4.1.avif",
+      "/Ring/ring4.2.avif",
+      "/Ring/Ring4.3.avif"
+    ],
+    "rating": "4.6",
+    "reviews_count": 158,
+    "created_at": "2026-10-03T11:08:45.012Z",
+    "updated_at": "2026-10-21T10:50:50.706Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 78,
+  "fields": {
+    "name": "Halo Couple Ring",
+    "slug": "halo-couple-ring-78",
+    "category": 4,
+    "collection": "autumn-collection",
+    "description": "Inspired by quiet luxury, the halo couple ring brings a soft shine to both day and evening looks.",
+    "material": "925 sterling silver, anti-tarnish coating",
+    "price": "9598.92",
+    "sale_price": null,
+    "stock": 0,
+    "sold_out": true,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": true,
+    "images": [
+      "/Ring/Ring12.1.avif",
+      "/Ring/Ring12.1.avif"
+    ],
+    "rating": "4.7",
+    "reviews_count": 38,
+    "created_at": "2026-10-03T11:08:45.014Z",
+    "updated_at": "2026-10-21T16:05:38.943Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 79,
+  "fields": {
+    "name": "Stacking Set Ring",
+    "slug": "stacking-set-ring-79",
+    "category": 4,
+    "collection": "",
+    "description": "Inspired by quiet luxury, the stacking set ring brings a soft shine to both day and evening looks.",
+    "material": "925 sterling silver, anti-tarnish coating",
+    "price": "3699.00",
+    "sale_price": null,
+    "stock": 0,
+    "sold_out": true,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Ring/Ring1.1.avif",
+      "/Ring/Ring1.2.avif",
+      "/Ring/Ring1.3.avif"
+    ],
+    "rating": "4.5",
+    "reviews_count": 192,
+    "created_at": "2026-10-03T11:08:45.024Z",
+    "updated_at": "2026-10-21T10:45:39.432Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 80,
+  "fields": {
+    "name": "Couple Promise Ring",
+    "slug": "couple-promise-ring-80",
+    "category": 4,
+    "collection": "",
+    "description": "A beautifully handcrafted engagement promise ring, designed to add a delicate touch of elegance to any outfit. Perfect for everyday wear or gifting.",
+    "material": "925 sterling silver, 18k gold plating",
+    "price": "10298.90",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "New",
+    "is_bestseller": false,
+    "images": [
+      "/Ring/Ring9.1.avif",
+      "/Ring/Ring9.2.avif",
+      "/Ring/Ring9.3.avif",
+      "/Ring/Ring9.4.avif"
+    ],
+    "rating": "4.4",
+    "reviews_count": 227,
+    "created_at": "2026-10-03T11:08:45.024Z",
+    "updated_at": "2026-10-21T16:00:10.541Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 81,
+  "fields": {
+    "name": "Star Dust Ring",
+    "slug": "star-dust-ring-81",
+    "category": 4,
+    "collection": "",
+    "description": "The star dust ring pairs effortlessly with everything in your jewellery box. Lightweight, comfortable and made to last.",
+    "material": "925 sterling silver, anti-tarnish coating",
+    "price": "3399.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Ring/Ring6.1.avif",
+      "/Ring/Ring6.1.avif"
+    ],
+    "rating": "4.6",
+    "reviews_count": 247,
+    "created_at": "2026-10-03T11:08:45.040Z",
+    "updated_at": "2026-10-21T15:54:17.792Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 82,
+  "fields": {
+    "name": "Snake Twist Ring",
+    "slug": "snake-twist-ring-82",
+    "category": 4,
+    "collection": "",
+    "description": "A beautifully handcrafted snake twist knot ring, designed to add a delicate touch of elegance to any outfit. Perfect for everyday wear or gifting.",
+    "material": "925 sterling silver, 18k gold plating",
+    "price": "5499.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Ring/Ring25.1.avif",
+      "/Ring/Ring25.1.avif"
+    ],
+    "rating": "4.3",
+    "reviews_count": 170,
+    "created_at": "2026-10-03T11:08:45.040Z",
+    "updated_at": "2026-10-21T16:28:00.037Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 83,
+  "fields": {
+    "name": "Adjustable Bloom Ring",
+    "slug": "adjustable-bloom-ring-83",
+    "category": 4,
+    "collection": "",
+    "description": "Inspired by quiet luxury, the adjustable bloom ring brings a soft shine to both day and evening looks.",
+    "material": "925 sterling silver, anti-tarnish gold coating",
+    "price": "3099.00",
+    "sale_price": "2599.00",
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "New",
+    "is_bestseller": true,
+    "images": [
+      "/Ring/Ring2.1.avif",
+      "/Ring/Ring2.2.avif",
+      "/Ring/Ring2.3.avif"
+    ],
+    "rating": "4.3",
+    "reviews_count": 38,
+    "created_at": "2026-10-03T11:08:45.058Z",
+    "updated_at": "2026-10-21T10:46:52.873Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 84,
+  "fields": {
+    "name": "Love Knot Ring",
+    "slug": "love-knot-ring-84",
+    "category": 4,
+    "collection": "autumn-collection",
+    "description": "The love knot ring pairs effortlessly with everything in your jewellery box. Lightweight, comfortable and made to last.",
+    "material": "925 sterling silver, anti-tarnish coating",
+    "price": "6699.00",
+    "sale_price": "4999.00",
+    "stock": 0,
+    "sold_out": true,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Ring/Ring11.1.avif",
+      "/Ring/Ring11.2.avif"
+    ],
+    "rating": "4.9",
+    "reviews_count": 131,
+    "created_at": "2026-10-03T11:08:45.065Z",
+    "updated_at": "2026-10-21T16:03:11.845Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 85,
+  "fields": {
+    "name": "Flower Petal Ring",
+    "slug": "flower-petal-ring-85",
+    "category": 4,
+    "collection": "",
+    "description": "Inspired by quiet luxury, the flower petal ring brings a soft shine to both day and evening looks.",
+    "material": "925 sterling silver, anti-tarnish coating",
+    "price": "3299.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "New",
+    "is_bestseller": false,
+    "images": [
+      "/Ring/Ring21.1.avif",
+      "/Ring/Ring21.1.avif"
+    ],
+    "rating": "4.9",
+    "reviews_count": 71,
+    "created_at": "2026-10-03T11:08:45.072Z",
+    "updated_at": "2026-10-21T16:20:03.950Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 86,
+  "fields": {
+    "name": "Vintage Filigree Ring",
+    "slug": "vintage-filigree-ring-86",
+    "category": 4,
+    "collection": "",
+    "description": "A beautifully handcrafted vintage filigree ring, designed to add a delicate touch of elegance to any outfit. Perfect for everyday wear or gifting.",
+    "material": "925 sterling silver, anti-tarnish coating",
+    "price": "4199.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Ring/Ring23.1.avif",
+      "/Ring/Ring23.2.avif",
+      "/Ring/Ring23.3.avif"
+    ],
+    "rating": "4.5",
+    "reviews_count": 253,
+    "created_at": "2026-10-03T11:08:45.085Z",
+    "updated_at": "2026-10-21T16:22:47.371Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 87,
+  "fields": {
+    "name": "Minimalist Line Ring",
+    "slug": "minimalist-line-ring-87",
+    "category": 4,
+    "collection": "",
+    "description": "Inspired by quiet luxury, the minimalist line ring brings a soft shine to both day and evening looks.",
+    "material": "925 sterling silver, anti-tarnish coating",
+    "price": "4499.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Ring/Ring19.1.avif",
+      "/Ring/Ring19.2.avif"
+    ],
+    "rating": "4.7",
+    "reviews_count": 28,
+    "created_at": "2026-10-03T11:08:45.095Z",
+    "updated_at": "2026-10-21T16:17:47.182Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 88,
+  "fields": {
+    "name": "Statement Cluster Ring",
+    "slug": "statement-cluster-ring-88",
+    "category": 4,
+    "collection": "sweet-valentina-collection",
+    "description": "The statement cluster ring pairs effortlessly with everything in your jewellery box. Lightweight, comfortable and made to last.",
+    "material": "925 sterling silver, anti-tarnish coating",
+    "price": "4199.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": true,
+    "images": [
+      "/Ring/Ring8.1.avif",
+      "/Ring/Ring8.2.avif"
+    ],
+    "rating": "4.5",
+    "reviews_count": 103,
+    "created_at": "2026-10-03T11:08:45.104Z",
+    "updated_at": "2026-10-21T15:56:14.318Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 89,
+  "fields": {
+    "name": "Crystal Solitaire Ring",
+    "slug": "crystal-solitaire-ring-89",
+    "category": 4,
+    "collection": "",
+    "description": "The crystal solitaire ring pairs effortlessly with everything in your jewellery box. Lightweight, comfortable and made to last.",
+    "material": "925 sterling silver, anti-tarnish coating",
+    "price": "6799.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Ring/Ring10.1.avif",
+      "/Ring/Ring10.2.avif",
+      "/Ring/Ring10.3.avif"
+    ],
+    "rating": "4.2",
+    "reviews_count": 211,
+    "created_at": "2026-10-03T11:08:45.112Z",
+    "updated_at": "2026-10-21T16:01:19.292Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 90,
+  "fields": {
+    "name": "Wave Curve Ring",
+    "slug": "wave-curve-ring-90",
+    "category": 4,
+    "collection": "sweet-valentina-collection",
+    "description": "The wave curve ring pairs effortlessly with everything in your jewellery box. Lightweight, comfortable and made to last.",
+    "material": "925 sterling silver, anti-tarnish coating",
+    "price": "5199.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Ring/Ring7.1.avif",
+      "/Ring/Ring7.2.avif",
+      "/Ring/Ring7.3.avif"
+    ],
+    "rating": "4.8",
+    "reviews_count": 251,
+    "created_at": "2026-10-03T11:08:45.121Z",
+    "updated_at": "2026-10-21T15:55:00.119Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 91,
+  "fields": {
+    "name": "Spark Ring",
+    "slug": "spark-ring-91",
+    "category": 4,
+    "collection": "sun-kissed-ibiza-collection",
+    "description": "Inspired by quiet luxury, the butterfly wing ring brings a soft shine to both day and evening looks.",
+    "material": "925 sterling silver, 18k gold plating",
+    "price": "4399.00",
+    "sale_price": "3499.00",
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Ring/Ring22.1.avif",
+      "/Ring/Ring22.1.avif"
+    ],
+    "rating": "4.4",
+    "reviews_count": 238,
+    "created_at": "2026-10-03T11:08:45.132Z",
+    "updated_at": "2026-10-21T16:24:18.448Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 92,
+  "fields": {
+    "name": "Luck Ring",
+    "slug": "luck-ring-92",
+    "category": 4,
+    "collection": "sweet-valentina-collection",
+    "description": "A beautifully handcrafted luck ring, designed to add a delicate touch of elegance to any outfit. Perfect for everyday wear or gifting.",
+    "material": "925 sterling silver, 18k gold plating",
+    "price": "3899.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Ring/Ring19.1.avif",
+      "/Ring/Ring19.1.avif"
+    ],
+    "rating": "4.5",
+    "reviews_count": 184,
+    "created_at": "2026-10-03T11:08:45.141Z",
+    "updated_at": "2026-10-21T16:19:13.608Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 93,
+  "fields": {
+    "name": "Heart Link Ring",
+    "slug": "heart-link-ring-93",
+    "category": 4,
+    "collection": "",
+    "description": "The heart link ring pairs effortlessly with everything in your jewellery box. Lightweight, comfortable and made to last.",
+    "material": "925 sterling silver, 18k gold plating",
+    "price": "2699.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": true,
+    "images": [
+      "/Ring/Ring24.1.avif",
+      "/Ring/Ring24.2.avif"
+    ],
+    "rating": "4.6",
+    "reviews_count": 71,
+    "created_at": "2026-10-03T11:08:45.149Z",
+    "updated_at": "2026-10-21T16:26:00.428Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 94,
+  "fields": {
+    "name": "Snake Ring",
+    "slug": "snake-ring-94",
+    "category": 4,
+    "collection": "",
+    "description": "The snake ring pairs effortlessly with everything in your jewellery box. Lightweight, comfortable and made to last.",
+    "material": "925 sterling silver, 18k gold plating",
+    "price": "7899.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Ring/Ring16.1.avif",
+      "/Ring/Ring16.2.avif",
+      "/Ring/Ring16.3.avif"
+    ],
+    "rating": "4.6",
+    "reviews_count": 190,
+    "created_at": "2026-10-03T11:08:45.159Z",
+    "updated_at": "2026-10-21T16:13:55.643Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 95,
+  "fields": {
+    "name": "Band Stone Ring",
+    "slug": "double-stone-ring-95",
+    "category": 4,
+    "collection": "",
+    "description": "The band  stone ring pairs effortlessly with everything in your jewellery box. Lightweight, comfortable and made to last.",
+    "material": "925 sterling silver, 18k gold plating",
+    "price": "3599.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Ring/Ring18.1.avif",
+      "/Ring/Ring18.2.avif"
+    ],
+    "rating": "4.4",
+    "reviews_count": 86,
+    "created_at": "2026-10-03T11:08:45.167Z",
+    "updated_at": "2026-10-21T16:16:21.215Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 96,
+  "fields": {
+    "name": "Open Cuff Ring",
+    "slug": "open-cuff-ring-96",
+    "category": 4,
+    "collection": "sweet-valentina-collection",
+    "description": "A beautifully handcrafted open cuff ring, designed to add a delicate touch of elegance to any outfit. Perfect for everyday wear or gifting.",
+    "material": "925 sterling silver, anti-tarnish coating",
+    "price": "4199.00",
+    "sale_price": "3399.00",
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Ring/Ring14.1.avif",
+      "/Ring/Ring14.2.avif"
+    ],
+    "rating": "4.4",
+    "reviews_count": 119,
+    "created_at": "2026-10-03T11:08:45.175Z",
+    "updated_at": "2026-10-21T16:10:14.152Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 97,
+  "fields": {
+    "name": "Engraved Stone Ring",
+    "slug": "engraved-stone-ring-97",
+    "category": 4,
+    "collection": "",
+    "description": "A beautifully handcrafted engraved stone ring, designed to add a delicate touch of elegance to any outfit. Perfect for everyday wear or gifting.",
+    "material": "925 sterling silver, anti-tarnish coating",
+    "price": "6598.79",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Ring/Ring15.1.avif",
+      "/Ring/Ring15.2.avif",
+      "/Ring/Ring15.3.avif",
+      "/Ring/Ring15.4.avif"
+    ],
+    "rating": "4.3",
+    "reviews_count": 139,
+    "created_at": "2026-10-03T11:08:45.185Z",
+    "updated_at": "2026-10-21T16:12:30.324Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 98,
+  "fields": {
+    "name": "Leaf Ring",
+    "slug": "leaf-ring-98",
+    "category": 4,
+    "collection": "",
+    "description": "A beautifully handcrafted leaf ring, designed to add a delicate touch of elegance to any outfit. Perfect for everyday wear or gifting.",
+    "material": "925 sterling silver, 18k gold plating",
+    "price": "6499.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": true,
+    "images": [
+      "/Ring/Ring17.1.avif",
+      "/Ring/Ring17.2.avif"
+    ],
+    "rating": "4.2",
+    "reviews_count": 171,
+    "created_at": "2026-10-03T11:08:45.187Z",
+    "updated_at": "2026-10-21T16:15:08.917Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 99,
+  "fields": {
+    "name": "Aster Gem Ring",
+    "slug": "aster-gem-ring-99",
+    "category": 4,
+    "collection": "",
+    "description": "Inspired by quiet luxury, the aster gem ring brings a soft shine to both day and evening looks.",
+    "material": "925 sterling silver, anti-tarnish coating",
+    "price": "6899.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Ring/Ring5.1.avif",
+      "/Ring/Ring5.2.avif"
+    ],
+    "rating": "4.4",
+    "reviews_count": 217,
+    "created_at": "2026-10-03T11:08:45.199Z",
+    "updated_at": "2026-10-21T15:53:37.323Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 100,
+  "fields": {
+    "name": "Halo Bloom Ring",
+    "slug": "halo-bloom-ring-100",
+    "category": 4,
+    "collection": "",
+    "description": "The halo bloom ring pairs effortlessly with everything in your jewellery box. Lightweight, comfortable and made to last.",
+    "material": "925 sterling silver, anti-tarnish coating",
+    "price": "5499.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "New",
+    "is_bestseller": false,
+    "images": [
+      "/Ring/Ring13.1.avif",
+      "/Ring/Ring13.1.avif"
+    ],
+    "rating": "4.4",
+    "reviews_count": 29,
+    "created_at": "2026-10-03T11:08:45.208Z",
+    "updated_at": "2026-10-21T16:06:45.846Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 106,
+  "fields": {
+    "name": "Shell Anklet",
+    "slug": "shell-anklet-106",
+    "category": 5,
+    "collection": "",
+    "description": "Inspired by quiet luxury, the shell anklet brings a soft shine to both day and evening looks.",
+    "material": "Hand-strung shell beads, gold-plated clasp",
+    "price": "3499.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": true,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Anklet/Anklet4.1.avif",
+      "/Anklet/Anklet4.2.avif"
+    ],
+    "rating": "4.6",
+    "reviews_count": 55,
+    "created_at": "2026-10-03T11:08:45.262Z",
+    "updated_at": "2026-10-22T05:13:15.867Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 110,
+  "fields": {
+    "name": "Coral Layered Chain",
+    "slug": "coral-layered-chain-110",
+    "category": 5,
+    "collection": "sweet-valentina-collection",
+    "description": "A beautifully handcrafted coral layered chain anklet, designed to add a delicate touch of elegance to any outfit. Perfect for everyday wear or gifting.",
+    "material": "925 sterling silver, 18k gold plating",
+    "price": "4599.00",
+    "sale_price": "4399.00",
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Anklet/Anklet3.1.avif",
+      "/Anklet/Anklet3.2.avif"
+    ],
+    "rating": "4.8",
+    "reviews_count": 233,
+    "created_at": "2026-10-03T11:08:45.285Z",
+    "updated_at": "2026-10-22T05:15:47.798Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 121,
+  "fields": {
+    "name": "Gold Layer Chain",
+    "slug": "gold-layer-chain-121",
+    "category": 5,
+    "collection": "",
+    "description": "The gold layer charmy chain anklet pairs effortlessly with everything in your jewellery box. Lightweight, comfortable and made to last.",
+    "material": "925 sterling silver, 18k gold plating",
+    "price": "4598.71",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Anklet/Anklet2.1.avif",
+      "/Anklet/Anklet2.2.avif"
+    ],
+    "rating": "4.4",
+    "reviews_count": 38,
+    "created_at": "2026-10-03T11:08:45.396Z",
+    "updated_at": "2026-10-22T05:17:31.905Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 122,
+  "fields": {
+    "name": "Amber Chain Anklet",
+    "slug": "amber-chain-anklet-122",
+    "category": 5,
+    "collection": "sun-kissed-ibiza-collection",
+    "description": "Inspired by quiet luxury, the amber thin layer chain anklet brings a soft shine to both day and evening looks.",
+    "material": "925 sterling silver, 18k gold plating",
+    "price": "2599.00",
+    "sale_price": "2099.00",
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "Limited",
+    "is_bestseller": false,
+    "images": [
+      "/Anklet/Anklet1.1.avif",
+      "/Anklet/Anklet1.1.avif"
+    ],
+    "rating": "4.2",
+    "reviews_count": 26,
+    "created_at": "2026-10-03T11:08:45.405Z",
+    "updated_at": "2026-10-22T05:10:25.543Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 126,
+  "fields": {
+    "name": "Heart Locket Charm",
+    "slug": "heart-locket-charm-126",
+    "category": 6,
+    "collection": "sweet-valentina-collection",
+    "description": "Inspired by quiet luxury, the heart locket charm brings a soft shine to both day and evening looks.",
+    "material": "18k gold plated brass, nickel free",
+    "price": "1099.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": true,
+    "badge": "New",
+    "is_bestseller": false,
+    "images": [
+      "/Charm/Charm3.1.avif",
+      "/Charm/Charm3.1.avif"
+    ],
+    "rating": "4.8",
+    "reviews_count": 170,
+    "created_at": "2026-10-03T11:08:45.445Z",
+    "updated_at": "2026-10-22T06:17:54.261Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 127,
+  "fields": {
+    "name": "Purple Crystal Charm",
+    "slug": "purple-crystal-charm-127",
+    "category": 6,
+    "collection": "sweet-valentina-collection",
+    "description": "Inspired by quiet luxury, the crystal charm brings a soft shine to both day and evening looks.",
+    "material": "Pure Rare Crystal, Nickle free",
+    "price": "4299.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": true,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Charm/Charm5.2.avif",
+      "/Charm/Charm5.1.avif"
+    ],
+    "rating": "4.2",
+    "reviews_count": 65,
+    "created_at": "2026-10-03T11:08:45.456Z",
+    "updated_at": "2026-10-22T06:07:49.567Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 128,
+  "fields": {
+    "name": "Insect & Face Charm",
+    "slug": "insect-face-charm-128",
+    "category": 6,
+    "collection": "sweet-valentina-collection",
+    "description": "A beautifully handcrafted insect & face charm, designed to add a delicate touch of elegance to any outfit. Set of 2. Perfect for everyday wear or gifting.",
+    "material": "18k gold plated brass, nickel free",
+    "price": "1499.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": true,
+    "badge": "New",
+    "is_bestseller": true,
+    "images": [
+      "/Charm/Charm8.1.avif",
+      "/Charm/Charm8.1.avif"
+    ],
+    "rating": "4.6",
+    "reviews_count": 182,
+    "created_at": "2026-10-03T11:08:45.466Z",
+    "updated_at": "2026-10-22T06:00:56.750Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 129,
+  "fields": {
+    "name": "Dragon Charm",
+    "slug": "dragon-charm-129",
+    "category": 6,
+    "collection": "sweet-valentina-collection",
+    "description": "Inspired by quiet luxury, the dragon charm brings a royalty shine to both day and evening looks.",
+    "material": "18k gold plated brass, nickel free",
+    "price": "3999.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Charm/Charm13.1.avif",
+      "/Charm/Charm13.2.avif"
+    ],
+    "rating": "4.7",
+    "reviews_count": 201,
+    "created_at": "2026-10-03T11:08:45.477Z",
+    "updated_at": "2026-10-22T06:15:01.851Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 130,
+  "fields": {
+    "name": "Green Crystal Charm",
+    "slug": "green-crystal-130",
+    "category": 6,
+    "collection": "sweet-valentina-collection",
+    "description": "A beautifully handcrafted crystal charm, designed to add a delicate touch of elegance to any outfit. Perfect for everyday wear or gifting.",
+    "material": "Pure Rare Crystal, Nickle free",
+    "price": "4099.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": true,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Charm/Charm6.1.avif",
+      "/Charm/Charm6.2.avif"
+    ],
+    "rating": "4.4",
+    "reviews_count": 182,
+    "created_at": "2026-10-03T11:08:45.485Z",
+    "updated_at": "2026-10-22T05:57:11.241Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 131,
+  "fields": {
+    "name": "Black Stone Charm",
+    "slug": "black-stone-charm-131",
+    "category": 6,
+    "collection": "sweet-valentina-collection",
+    "description": "Inspired by quiet luxury, the black stone charm brings a soft shine to both day and evening looks.",
+    "material": "Pure Rare stone, Nickle free",
+    "price": "2099.07",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": true,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Charm/Charm7.1.avif",
+      "/Charm/Charm7.2.avif"
+    ],
+    "rating": "4.7",
+    "reviews_count": 193,
+    "created_at": "2026-10-03T11:08:45.500Z",
+    "updated_at": "2026-10-22T05:58:53.498Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 132,
+  "fields": {
+    "name": "Set of 3 Charms",
+    "slug": "set-of-3-charms-132",
+    "category": 6,
+    "collection": "sweet-valentina-collection",
+    "description": "Inspired by quiet luxury, the leaf,rainbow and butterfly charms brings a soft shine to both day and evening looks.Set of 3.",
+    "material": "18k gold plated brass, nickel free",
+    "price": "4598.83",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": true,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Charm/Charm12.1.avif",
+      "/Charm/Charm12.1.avif"
+    ],
+    "rating": "4.2",
+    "reviews_count": 84,
+    "created_at": "2026-10-03T11:08:45.510Z",
+    "updated_at": "2026-10-22T06:12:32.425Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 133,
+  "fields": {
+    "name": "Cross Charm",
+    "slug": "cross-charm-133",
+    "category": 6,
+    "collection": "sweet-valentina-collection",
+    "description": "A beautifully handcrafted cross charm, designed to add a delicate touch of elegance to any outfit. Perfect for everyday wear or gifting.",
+    "material": "18k gold plated brass, nickel free",
+    "price": "2799.00",
+    "sale_price": "2199.00",
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": true,
+    "badge": "",
+    "is_bestseller": true,
+    "images": [
+      "/Charm/Charm14.1.avif",
+      "/Charm/Charm14.1.avif"
+    ],
+    "rating": "4.5",
+    "reviews_count": 236,
+    "created_at": "2026-10-03T11:08:45.519Z",
+    "updated_at": "2026-10-22T06:18:35.763Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 135,
+  "fields": {
+    "name": "Black Arona Charm",
+    "slug": "black-arona-charm-135",
+    "category": 6,
+    "collection": "",
+    "description": "A beautifully handcrafted black arona charm, designed to add a delicate touch of elegance to any outfit. Perfect for everyday wear or gifting.",
+    "material": "925 sterling silver posts, hypoallergenic",
+    "price": "2499.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": true,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Charm/Charm10.1.avif",
+      "/Charm/Charm10.2.avif",
+      "/Charm/Charm10.3.avif"
+    ],
+    "rating": "4.2",
+    "reviews_count": 46,
+    "created_at": "2026-10-03T11:08:45.535Z",
+    "updated_at": "2026-10-22T06:07:02.745Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 136,
+  "fields": {
+    "name": "Dainty Charm",
+    "slug": "dainty-charm-136",
+    "category": 6,
+    "collection": "sweet-valentina-collection",
+    "description": "Inspired by quiet luxury, the dainty charm brings a soft shine to both day and evening looks.",
+    "material": "18k gold plated brass, nickel free",
+    "price": "1199.00",
+    "sale_price": null,
+    "stock": 0,
+    "sold_out": true,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Charm/Charm11.2.avif",
+      "/Charm/Charm11.1.avif",
+      "/Charm/Charm11.3.avif"
+    ],
+    "rating": "4.2",
+    "reviews_count": 35,
+    "created_at": "2026-10-03T11:08:45.547Z",
+    "updated_at": "2026-10-22T06:09:40.166Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 137,
+  "fields": {
+    "name": "Arona Charm",
+    "slug": "Arona-charm-137",
+    "category": 6,
+    "collection": "",
+    "description": "A beautifully handcrafted arona charm, designed to add a delicate touch of elegance to any outfit. Perfect for everyday wear or gifting.",
+    "material": "925 sterling silver, 18k gold plating",
+    "price": "5499.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "Limited",
+    "is_bestseller": false,
+    "images": [
+      "/Charm/Charm9.1.avif",
+      "/Charm/Charm9.2.avif",
+      "/Charm/Charm9.3.avif",
+      "/Charm/Charm9.4.avif"
+    ],
+    "rating": "4.8",
+    "reviews_count": 211,
+    "created_at": "2026-10-03T11:08:45.553Z",
+    "updated_at": "2026-10-22T06:04:24.679Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 139,
+  "fields": {
+    "name": "Seashell Charm",
+    "slug": "seashell-charm-139",
+    "category": 6,
+    "collection": "",
+    "description": "The seashell charm pairs effortlessly with everything in your jewellery box. Lightweight, comfortable and made to last.",
+    "material": "18k gold plated brass, nickel free",
+    "price": "1199.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": true,
+    "badge": "New",
+    "is_bestseller": false,
+    "images": [
+      "/Charm/Charm1.1.avif",
+      "/Charm/Charm1.2.avif"
+    ],
+    "rating": "4.4",
+    "reviews_count": 90,
+    "created_at": "2026-10-03T11:08:45.568Z",
+    "updated_at": "2026-10-22T05:52:06.037Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 140,
+  "fields": {
+    "name": "Dainty Key Charm",
+    "slug": "dainty-key-charm-140",
+    "category": 6,
+    "collection": "",
+    "description": "Inspired by quiet luxury, the dainty key charm brings a soft shine to both day and evening looks.",
+    "material": "18k gold plated brass, nickel free",
+    "price": "1099.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "",
+    "is_bestseller": false,
+    "images": [
+      "/Charm/Charm4.1.avif",
+      "/Charm/Charm4.1.avif"
+    ],
+    "rating": "4.7",
+    "reviews_count": 219,
+    "created_at": "2026-10-03T11:08:45.568Z",
+    "updated_at": "2026-10-22T05:53:36.293Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 143,
+  "fields": {
+    "name": "Tortoise Charm",
+    "slug": "tortoise-charm-143",
+    "category": 6,
+    "collection": "",
+    "description": "A beautifully handcrafted tortoise charm, designed to add a delicate touch of elegance to any outfit. Perfect for everyday wear or gifting.",
+    "material": "18k gold plated brass, nickel free",
+    "price": "2599.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": false,
+    "badge": "Limited",
+    "is_bestseller": true,
+    "images": [
+      "/Charm/Charm2.1.avif",
+      "/Charm/Charm2.2.avif"
+    ],
+    "rating": "4.4",
+    "reviews_count": 72,
+    "created_at": "2026-10-03T11:08:45.598Z",
+    "updated_at": "2026-10-22T05:51:50.228Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 148,
+  "fields": {
+    "name": "Tulip Charm",
+    "slug": "tulip-charm-148",
+    "category": 6,
+    "collection": "",
+    "description": "Inspired by quiet luxury, the tulip charm brings a soft shine to both day and evening looks.",
+    "material": "18k gold plated brass, nickel free",
+    "price": "2199.00",
+    "sale_price": null,
+    "stock": 25,
+    "sold_out": false,
+    "personalizable": true,
+    "badge": "New",
+    "is_bestseller": true,
+    "images": [
+      "/Charm/Charm15.1.avif",
+      "/Charm/Charm15.1.avif"
+    ],
+    "rating": "4.8",
+    "reviews_count": 176,
+    "created_at": "2026-10-03T11:08:45.653Z",
+    "updated_at": "2026-10-22T06:18:54.295Z"
+  }
+}
+]

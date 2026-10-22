@@ -1,0 +1,30 @@
+.ct-cards { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 14px; margin-top: -34px; position: relative; z-index: 2; }
+.ct-card-wrap { display: flex; }
+.ct-card { flex: 1; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 4px; background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 22px 12px; box-shadow: 0 8px 26px rgba(0,0,0,.05); transition: transform .3s, box-shadow .3s, border-color .3s; }
+a.ct-card:hover { transform: translateY(-5px); box-shadow: var(--shadow); border-color: var(--ink); }
+.ct-ico { width: 46px; height: 46px; display: grid; place-items: center; border-radius: 50%; background: var(--blush); font-size: 20px; margin-bottom: 6px; }
+.ct-card b { font-weight: 500; font-family: var(--serif); font-size: 16px; }
+.ct-val { font-size: 13px; color: var(--ink-soft); word-break: break-word; }
+@media (max-width: 1000px) { .ct-cards { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 620px) { .ct-cards { grid-template-columns: repeat(2, 1fr); margin-top: -24px; } .ct-cards > :last-child:nth-child(odd) { grid-column: 1 / -1; } }
+
+.ct-main { display: grid; grid-template-columns: 1fr 1.15fr; gap: clamp(24px, 5vw, 72px); align-items: start; padding: clamp(40px, 6vw, 80px) 0; }
+.ct-side h2 { font-size: clamp(26px, 3vw, 38px); margin: 0 0 12px; }
+.ct-side p { color: #4a4a4a; }
+.ct-points { list-style: none; padding: 0; margin: 20px 0 0; display: grid; gap: 10px; }
+.ct-points li { position: relative; padding-left: 28px; color: #4a4a4a; }
+.ct-points li::before { content: '✓'; position: absolute; left: 0; top: 0; width: 20px; height: 20px; border-radius: 50%; background: var(--blush); display: grid; place-items: center; font-size: 11px; }
+.ct-form { background: #fff; border: 1px solid var(--line); border-radius: 20px; padding: clamp(22px, 3.4vw, 40px); box-shadow: 0 14px 44px rgba(0,0,0,.06); }
+.ct-form .field:last-of-type { margin-bottom: 20px; }
+@media (max-width: 860px) { .ct-main { grid-template-columns: 1fr; } }
+
+.ct-faq { max-width: 820px; margin: 0 auto; padding-bottom: clamp(50px, 7vw, 100px); }
+.ct-faq h2 { text-align: center; font-size: clamp(24px, 3vw, 36px); margin: 0 0 22px; }
+.ct-q { border-bottom: 1px solid var(--line); }
+.ct-q button { width: 100%; display: flex; justify-content: space-between; align-items: center; gap: 12px; background: none; border: 0; padding: 18px 2px; text-align: left; font-family: var(--serif); font-size: 17px; }
+.ct-q button svg { flex: none; transition: transform .3s; }
+.ct-q.open button svg { transform: rotate(180deg); }
+.ct-a { overflow: hidden; }
+.ct-a p { margin: 0; padding: 0 2px 18px; color: #4a4a4a; }
+
+.ct .static-hero { padding-bottom: clamp(56px, 8vw, 100px); }
