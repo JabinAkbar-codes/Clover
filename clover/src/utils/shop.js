@@ -3,7 +3,7 @@ export const FREE_SHIPPING_THRESHOLD = 999
 export const SHIPPING_FEE = 79
 export const COD_FEE = 49
 
-export const UPI_VPA = import.meta.env.VITE_UPI_VPA || 'yourname@okhdfcbank'
+export const UPI_VPA = import.meta.env.VITE_UPI_VPA || 'clover.demo@examplebank'
 export const UPI_NAME = import.meta.env.VITE_UPI_NAME || 'CLOVER'
 
 export const STATES = [
