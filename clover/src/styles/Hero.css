@@ -134,37 +134,65 @@
 }
 
 @media (max-width: 575.98px) {
-  .hero-grid {
-    display: block;
+  .hero-section {
+    overflow: hidden;
   }
 
+  /* 3 images in one row, card on its own row below */
+  .hero-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+    gap: 0;
+    min-height: auto;
+  }
+
+  /* show the side panels again (the old rule hid them) */
+  .hero-panel,
   .hero-panel:first-child,
   .hero-panel:last-child {
-    display: none;
-  }
-
-  .hero-center-panel {
     display: block;
+    min-height: 0;
     width: 100%;
-    min-height: 100vh;
   }
 
-  .hero-img {
+  /* lets the center image and the card act as separate grid items */
+  .hero-center-panel {
+    display: contents;
+  }
+
+  /* put all three images in row 1 */
+  .hero-grid > .hero-panel:first-child { grid-column: 1; grid-row: 1; }
+  .hero-center-panel > .hero-img       { grid-column: 2; grid-row: 1; }
+  .hero-grid > .hero-panel:last-child  { grid-column: 3; grid-row: 1; }
+
+  /* all three images share the same size */
+  .hero-img,
+  .hero-panel .hero-img,
+  .hero-center-panel > .hero-img {
     width: 100%;
-    height: 100vh;
+    height: auto;
+    aspect-ratio: 2 / 3;
     object-fit: cover;
+    display: block;
   }
 
+  /* card goes in row 2, under the images, full width */
   .hero-overlay-card {
-    width: 92%;
-    max-width: 340px;
-    aspect-ratio: auto;
-    padding: 28px 22px;
-    bottom: 25px;
+    grid-column: 1 / -1;
+    grid-row: 2;
+    position: static;
+    transform: none;
+    left: auto;
+    bottom: auto;
+    width: 100%;
+    max-width: 100%;
+    padding: 32px 22px 40px;
+    box-shadow: none;
   }
 
   .hero-title {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .hero-subtitle {
